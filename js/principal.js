@@ -35,8 +35,17 @@ tdImc.textContent = "Altura Inválida!";
 }
 
 if(alturaEhValida && pesoEhValido){
-
 var imc = peso / (altura * altura);
 tdImc.textContent = imc;
 }
+
+titulo.addEventListener("click", function() {
+console.log("Olha só posso chamar uma função anonima.");
+
+
+})
+
+
+}
+
 
